@@ -1,0 +1,46 @@
+{
+    "wand_driver_simulator":{ 
+		//"ng_replay_data_source_folder": "D:\\ngdp\\from_michal",
+		//"ng_replay_data_source_folder": "D:\\ngdp\\Raw-DB-from-ppc",
+		//"ng_replay_data_source_folder": "c:\\ngdp\\07072020",
+		//"ng_replay_data_source_folder": "c:\\ngdp\\07_porcelain",
+		//"ng_replay_data_source_folder": "c:\\ngdp\\ver 0.0.3.94\\1",
+		//"ng_replay_data_source_folder": "c:\\ngdp\\ver 0.0.4.81",
+		"ng_replay_data_source_folder": "c:\\ngdp\\ver 0.0.4.97\\3_traj08072021",
+		//"ng_replay_data_source_folder": "C:\\ngdp\\ver 0.0.4.97\\manual\\1",
+		//"ng_replay_data_source_folder": "C:\\ngdp\\ver 0.0.4.97\\manual\\2",
+		//"ng_replay_data_source_folder": "c:\\ngdp\\Robot_full",
+		//"ng_replay_data_source_folder": "c:\\ngdp\\Robot_full2_recovery1",
+		//"ng_replay_data_source_folder": "c:\\ngdp\\Robot_full2_recovery2",
+		//"ng_replay_data_source_folder": "c:\\ngdp\\Robot_full2_segment",
+        //"geometry_calibration_data_source": "D:\\ngdp\\Iguana\\2020-05-11 16-21-57_newiguana_w27t3_raxel_take2_wand_calibration_raxel.json",
+        //"color_calibration_data_source": "D:\\ngdp\\Iguana\\color_calibration_params.json",
+		//"replay_data_source" : "D:\\ngdp\\Raw-DB-from-ppc\\1stream_record_2020_06_08_T14_36_30_33424_Operational.raw",
+        "ui_dev_mode": false
+    },
+	"wand": {
+        "is_simulator": false
+    },
+	"ui_related": {
+        "show_window_close_button": false,
+		"turn_off_sleeve_confirmation_for_dbg": true
+    },
+	"bg_related": {
+		"show_console": false
+	},
+	"scanning_recorder":{
+        "recorder_scanning_enable": true,
+        "recorder_min_disk_space_in_gb": 25,
+        "recorder_target_folder": "c:\\temp\\recorder_exports",
+		"stream_record_raw_data": true,
+		"always_record": false
+    },
+	"scanning_engine":{
+		"intraoral_scan": false,
+		"api_test_mode": true
+	},
+	"imu": { 
+		"dump_imu_to_log": true,
+		"enable_motion_detection": false
+	}
+}
