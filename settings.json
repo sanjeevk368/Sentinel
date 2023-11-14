@@ -1,0 +1,48 @@
+{
+    "general": {
+ 
+        "remote_interop": {
+            "value": true
+        },
+        "open_screen":{
+            "value": "ScanScreen"
+        }
+    },
+    "case_admin" : {
+      "should_enable_communications" : {
+         "value" : false
+      }
+    },
+     "debugging": {
+        "show_debug_menu": {
+            "value": true
+        }
+    },
+    "cmdline_arguments": {
+        "APITestMode": {"value": "True"}
+    },
+     "playback" : {
+        "run_record" : {
+            "value" : "C:/temp/record"
+        }
+    },
+    "auto_hole_filling": {
+        "enable_auto_hole_filling_in_post_processing": {
+        "value": false
+        }
+    },
+    "wand_motion": {
+        "time_for_standby_mode_seconds": {
+            "constraints": "",
+            "default_value": 10,
+            "description": "time in seconds for motionless wand to enter standby mode",
+            "value": 50
+        }
+    },
+    "is_angie_enabled": {
+      "constraints": "",
+      "default_value": "",
+      "description": "",
+      "value": true
+    }
+}
